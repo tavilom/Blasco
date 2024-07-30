@@ -408,7 +408,7 @@ export default function Home() {
         </section>
 
         <a
-          href="https://wa.me/53599997706"
+          href="https://api.whatsapp.com/send?phone=555399977106&text=Ol%C3%A1,%20preciso%20conversar%20com%20um%20advogado"
           className={styles.whatsappButton}
           target="_blank"
           rel="noopener noreferrer"
