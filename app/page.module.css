@@ -1,5 +1,16 @@
 .container {
-  padding: 0 2rem;
+  padding: 20px;
+  padding-top: 0%;
+}
+
+.letra1{
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.letra2{
+  font-size: 1.5rem;
+  color: #000000;
 }
 
 .main {
@@ -11,14 +22,25 @@
   align-items: center;
 }
 
+
 .hero {
   padding: 20px;
-  background-color: #f8f9fa;
+  background-color: #ffffff;
   /* Cor de fundo similar ao da imagem */
-  border-radius: 8px;
-  /* Bordas arredondadas */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  /* Sombra leve */
+  border-radius: 0;
+}
+
+.hero h1 {
+  margin-bottom: 20px;
+  color: #6c2b61;
+ 
+}
+.hero p{
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: large;
+  /* Cor do texto do título */
 }
 
 .hero h2 {
@@ -97,7 +119,7 @@
   padding: 20px;
   background-color: #f8f9fa;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
 .image1,
@@ -139,7 +161,7 @@
 .differentialsSection {
   text-align: center;
   padding: 20px;
-  background-color: #f8f9fa;
+  background-color: #cbd3da;
   /* Cor de fundo similar ao da imagem */
   border-radius: 8px;
   /* Bordas arredondadas */
@@ -194,15 +216,15 @@
   text-align: center;
   margin: 50px 0;
   padding: 20px;
-  background-color: #4e1d4e;
+  background-color: #f8f9fa;
   /* Fundo da seção */
-  color: #fff;
+  color: #000000;
   /* Cor do texto */
 }
 
 .contactSection h2 {
   margin-bottom: 30px;
-  color: #fff;
+  color: #6c2b61;
   /* Cor do título */
 }
 
@@ -491,7 +513,6 @@
   }
 }
 
-/* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);

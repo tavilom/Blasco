@@ -1,4 +1,3 @@
-// app/page.jsx
 'use client';
 
 import { useEffect } from 'react';
@@ -18,7 +17,6 @@ export default function Home() {
         wrap: true,
       });
 
-      // Initialize all accordions
       const accordionElements = document.querySelectorAll('.accordion');
       accordionElements.forEach((accordionElement) => {
         new bootstrap.Collapse(accordionElement, {
@@ -26,7 +24,6 @@ export default function Home() {
         });
       });
 
-      // Initialize tooltips
       const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
       tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl);
@@ -63,7 +60,7 @@ export default function Home() {
                   alt="First slide"
                 />
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Blasco Advogados</h5>
+                  <h5 className={styles.letra1}>Blasco Advogados</h5>
                 </div>
               </div>
               <div className="carousel-item">
@@ -73,7 +70,7 @@ export default function Home() {
                   alt="Second slide"
                 />
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Blasco Advogados</h5>
+                  <h5 className={styles.letra2}>Blasco Advogados</h5>
                 </div>
               </div>
             </div>
@@ -110,7 +107,7 @@ export default function Home() {
             para pessoas com doença grave?
           </h1>
           <p>
-            Nós da{' '}
+            Nós da
             <span className={styles.span}>Blasco Advogados,</span> somos um
             escritório familiar, com mais de 15 anos de experiência,
             especializado em direito tributário, previdenciário e civil.
@@ -399,7 +396,7 @@ export default function Home() {
             <div className={styles.contactMap}>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.0586410506873!2d-49.00636292358583!3d-27.098280721011506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df2745c9874f5f%3A0x21b2f8e2a5e4b86e!2sR.%20Torres%2C%2044%20-%20Steffen%2C%20Brusque%20-%20SC%2C%2088355-170%2C%20Brazil!5e0!3m2!1sen!2sus!4v1675074295867!5m2!1sen!2sus"
-                allowFullScreen=""
+                allowFullScreen="false"
                 loading="lazy"
                 title="Location"
               ></iframe>
