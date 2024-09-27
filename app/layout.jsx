@@ -1,7 +1,6 @@
-// app/layout.jsx
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Script from 'next/script';
-import './globals.css'; // Importando o arquivo globals.css
+import './globals.css';
 import Header from './components/Header';
 
 export const metadata = {

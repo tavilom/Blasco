@@ -1,13 +1,12 @@
-// app/components/Header.js
 'use client'
-import { useState } from 'react'; // Importe o useState do React
-import styles from './Header.module.css';
+import { useState } from 'react'; 
+import styles from '../styles/Header.module.css';
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // Estado para controlar se o menu está aberto
+  const [isMenuOpen, setIsMenuOpen] = useState(false); 
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen); // Alterna o estado do menu
+    setIsMenuOpen(!isMenuOpen); 
   };
 
   return (
@@ -19,7 +18,7 @@ const Header = () => {
         <button
           className="navbar-toggler"
           type="button"
-          onClick={toggleMenu} // Adiciona o onClick para chamar a função toggleMenu
+          onClick={toggleMenu} 
         >
           <span className="navbar-toggler-icon"></span>
         </button>

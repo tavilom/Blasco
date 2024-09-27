@@ -1,0 +1,49 @@
+.differentialsSection {
+    text-align: center;
+    padding: 20px;
+    background-color: #cbd3da;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image4,
+.image5,
+.image6 {
+    width: 100%;
+    height: 100px;
+
+}
+
+.differentialsSection h2 {
+    margin-bottom: 30px;
+    color: #6c2b61;
+    /* Cor do título */
+}
+
+.differentialsContent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.differentialItem {
+    flex: 1 1 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: rgba(108, 43, 97, 0.1);
+    /* Fundo da caixa */
+}
+
+
+
+.differentialItem h3 {
+    color: #6c2b61;
+    /* Cor dos subtítulos */
+    margin-bottom: 15px;
+}
+
+.differentialItem p {
+    color: #333;
+}
