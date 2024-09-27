@@ -15,14 +15,14 @@ bun dev
 ```
 
 Dependecias instaladas: 
-+-- @popperjs/core@2.11.8
-+-- bootstrap-icons@1.11.3
-+-- bootstrap@5.3.3
-+-- eslint-config-next@14.2.4
-+-- eslint@8.57.0
-+-- next@14.2.4
-+-- react-dom@18.3.1
-`-- react@18.3.1
++-- @popperjs/core@2.11.8 ;
++-- bootstrap-icons@1.11.3 ; 
++-- bootstrap@5.3.3 ; 
++-- eslint-config-next@14.2.4 ;
++-- eslint@8.57.0 ;
++-- next@14.2.4 ;
++-- react-dom@18.3.1 ; 
+`-- react@18.3.1 ;
 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
