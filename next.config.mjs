@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  module.exports = {
+  assetPrefix: './',
+  basePath: '/Blasco',
+  trailingSlash: true,
+}
+};
 
 export default nextConfig;
