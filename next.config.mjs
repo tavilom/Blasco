@@ -4,6 +4,8 @@ const nextConfig = {
   assetPrefix: './',
   basePath: '/Blasco',
   trailingSlash: true,
+  output: "export",  // <=== habilita o export estático
+  reactStrictMode: true,
 }
 };
 
